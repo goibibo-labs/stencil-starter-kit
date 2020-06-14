@@ -1,0 +1,33 @@
+{
+  "name": "@stencil/megatron",
+  "version": "0.0.1",
+  "description": "XHR helper wrapper on steroids",
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "https://github.com/goibibo-labs/stencil-starter-kit#readme",
+  "license": "ISC",
+  "main": "src/megatron.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo-labs/stencil-starter-kit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo-labs/stencil-starter-kit/issues"
+  },
+  "dependencies": {
+    "@stencil/logger": "^0.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}

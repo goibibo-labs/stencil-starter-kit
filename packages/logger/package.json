@@ -1,0 +1,26 @@
+{
+  "name": "@stencil/logger",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/logger",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "application-config": "^0.0.1",
+    "winston": "^3.2.1"
+  }
+}

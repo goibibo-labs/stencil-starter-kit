@@ -1,0 +1,32 @@
+{
+  "name": "@stencil/client-data-context",
+  "version": "0.0.1",
+  "description": "to be used as source for client context passing through-out app",
+  "author": "AbinashGoMMT <abinash.patra@go-mmt.com>",
+  "homepage": "https://github.com/goibibo-labs/stencil-starter-kit#readme",
+  "license": "ISC",
+  "main": "src/client-data-context.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo-labs/stencil-starter-kit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo-labs/stencil-starter-kit/issues"
+  },
+  "dependencies": {
+    "preact": "^10.4.4"
+  }
+}

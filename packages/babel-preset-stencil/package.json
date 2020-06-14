@@ -1,0 +1,40 @@
+{
+  "name": "@stencil/babel-preset-stencil",
+  "version": "0.0.1",
+  "description": "Babel config for stencil as preset",
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "https://github.com/goibibo-labs/stencil-starter-kit/tree/master/packages/babel-preset-stencil#readme",
+  "license": "ISC",
+  "main": "src/babel-preset-stencil.js",
+  "directories": {
+    "src": "src",
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo-labs/stencil-starter-kit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo-labs/stencil-starter-kit/issues"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.0",
+    "@babel/plugin-transform-runtime": "^7.8.0",
+    "@babel/preset-env": "^7.8.0",
+    "@babel/preset-react": "^7.8.0",
+    "@babel/preset-typescript": "^7.8.0",
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}

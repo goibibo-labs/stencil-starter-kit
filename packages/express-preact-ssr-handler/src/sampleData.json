@@ -1,0 +1,251 @@
+{
+  "language": {
+    "title": "Aarogya Setu",
+    "mainText": [
+      "Low risk of infection",
+      "You are Safe",
+      "High risk of infection",
+      "Moderate risk of infection",
+      "Need medical care!"
+    ],
+    "subText": ["Recent contact with infected person.", "You must be under medical supervision"],
+    "recommendText": ["Things to do next"],
+    "recommendationList": [
+      "Take Self Assessment Test",
+      "Maintain Social Distance",
+      "Check app regularly for updates",
+      "Isolate yourself",
+      "Log temperature every two hours",
+      "Get yourself tested immediately",
+      "Home quarantine",
+      "Take self assessment test every day",
+      "If you show symptoms, call helpline",
+      "Be cautious",
+      "Stay at home",
+      "Retake take self assessment test if you develop symtoms.",
+      "Home quarantine immediately.",
+      "If you are not under medical care right now, please call the helpline immediately!",
+      "Do NOT panic, act responsibly.",
+      "Please help to keep your community safe."
+    ],
+    "guideLineHeading": [
+      "How to maintain social distancing:",
+      "How to self isolate:",
+      "How do I home quarantine?",
+      "Safety precautions you should take:"
+    ],
+    "guideLines": [
+      "Greet with a Namaste instead of a handshake",
+      "Avoid social gatherings",
+      "Keep a 6ft. distance from people",
+      "Wear face mask",
+      "Don&apos;t share towel & utencils",
+      "Limit contact with others",
+      "Stay in a seperate room",
+      "Wash Hands",
+      "Maintain 6 feet distance",
+      "Don&apos;t share towel & utencils",
+      "Do not have visitors"
+    ],
+    "listItem": ["Learn more about COVID-19", "Safety measures against COVID-19"],
+    "listText": ["How to Stay Safe"],
+    "cta": ["Call Helpline", "Assess Again", "Self Assess"],
+    "recommendation_dialogue": {
+      "recco": "We recommend you to",
+      "message": "Proceed with self assessment test",
+      "cta1": "Proceed",
+      "cta2": "Skip"
+    },
+    "tncText": "Terms Of Use",
+    "stats": {
+      "statsTitle": "COVID-19 Cases Overview",
+      "statsAcrossIndia": "Across India",
+      "statsAllStatesStats": "All State/UT Stats",
+      "HConfirmed": "Confirmed",
+      "HQuarantine": "Quarantine",
+      "HCured": "Recovered",
+      "HDeaths": "Deceased",
+      "LLocation": "Location",
+      "LConfirm": "Confirmed",
+      "LQuar": "Quarantine",
+      "LCured": "Recovered",
+      "LDeaths": "Deceased",
+      "graphTitle": "Cases Over Time",
+      "cumulative": "Cumulative",
+      "daily": "Daily"
+    },
+    "nav": {
+      "navStatus": "Your Status",
+      "navSelfAssess": "Self Assess",
+      "navUpdate": "COVID Updates",
+      "navEpass": "e-Pass",
+      "navComingSoon": "Coming Soon",
+      "navMedia": "Media"
+    },
+    "epass": {
+      "issuedEpass": "Issued e-Pass",
+      "expiredText": "e-Pass expired on ",
+      "validText": "e-Pass valid till",
+      "cta": "View Pass",
+      "faqHeading": "Frequently Asked Questions",
+      "noEpassTitle": "No e-Pass available",
+      "noEpassMessage": "When issued, it will show up here",
+      "faqList": [
+        {
+          "q": "What information does my e-pass contain?",
+          "a": "Your e-pass contains all the basic information about you, your company, supply chain partner, e-pass valid till date, location and nature of work."
+        },
+        {
+          "q": "Can my e-pass be used for other purposes than essential supply duty?",
+          "a": "No. It should only be used for the essential supply purposes and if any citizen is caught misusing this pass then he/she would be liable for punishment."
+        },
+        {
+          "q": "What is my e-pass number?",
+          "a": "The 6 digit unique alphanumeric ID mentioned on the e-pass is the e-pass number."
+        },
+        {
+          "q": "Is my e-pass valid at any location?",
+          "a": "No. It is only valid in the Valid Location as mentioned in the e-pass."
+        },
+        {
+          "q": "Who is the issuing authority of my e-pass?",
+          "a": "Every e-pass have the state government logo at the top which is the issuing authority of the e-pass."
+        },
+        {
+          "q": "How can my e-pass be verified?",
+          "a": "You can scan your e-pass with any QR code scanner or you can send a SMS “VERIFY e-pass number” to 9686454890. For eg. “VERIFY jf7KTn”. If it is a valid e-pass number then you will receive an automated confirmation from the e-pass system."
+        },
+        {
+          "q": "Is my e-pass valid with any Government issued ID?",
+          "a": "Yes. Your e-pass is valid on-ground only with the possession of any government issued ID like Aadhar Card, Voter ID Card, Driving License and PAN Card."
+        }
+      ]
+    },
+    "proximityStats": {
+      "positive": "Aarogya Setu user diagnosed COVID-19 positive in last 28 days.",
+      "positives": "Aarogya Setu users diagnosed COVID-19 positive in last 28 days.",
+      "noPositive": "No COVID-19 positive Aarogya Setu user found",
+      "bluetooth": "Aarogya Setu user identified &apos;At Risk&apos; for being in proximity of a person who tested positive",
+      "bluetooths": "Aarogya Setu users identified &apos;At Risk&apos; for being in proximity of a person who tested positive",
+      "selfassess": "Aarogya Setu user has taken the Self-assessment test in last 24 hours",
+      "selfassesss": "Aarogya Setu users have taken the Self-assessment test in last 24 hours",
+      "fetching": "Fetching nearby COVID-19 cases",
+      "inArea": "In your area now, within radius of",
+      "unwellText": "Aarogya Setu user self-assessed as &apos;Unwell&apos; in last 24 hours",
+      "unwellTexts": "Aarogya Setu users self-assessed as &apos;Unwell&apos; in last 24 hours",
+      "totalUsersText": "user is using Aarogya Setu App",
+      "totalUsersTexts": "users are using Aarogya Setu App"
+    },
+    "activityComponent": {
+      "bluetooth": "Bluetooth",
+      "activeTime": "Active Time",
+      "gps": "GPS"
+    },
+    "mediaTab": {
+      "seeAll": "See All",
+      "trendingNow": "Trending Now"
+    },
+    "pmCares": {
+      "donateCta": "Donate via PM Cares Website",
+      "upiCta": "Donate Using ",
+      "quote": "Aarogya Setu is an important step in our fight against COVID-19. By leveraging technology, it provides important information. As more and more people use it, it’s effectiveness will increase. I urge you all to download it.",
+      "name": "Narendra Modi",
+      "post": "Hon&apos;ble Prime Minister of India"
+    },
+    "updatePopup": {
+      "title": "Update Aarogya Setu?",
+      "message": "Aarogya setu recommends that you update to the latest version.",
+      "cta": "Update"
+    },
+    "other": {
+      "totalAppUsers": "Crore Indians are using Aarogya Setu App",
+      "tryAgain": "Try Again",
+      "errorMsg": "Something went wrong.",
+      "goi": "Government of India",
+      "icmrCta": "ICMR Approved Labs"
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "all": "All",
+      "homeHeading": "Privacy FAQs",
+      "homeTitle": "Everything you need to know about Aarogya Setu",
+      "homeCta": "See All FAQs"
+    },
+    "aarogyaMitr": {
+      "title": "You are now leaving Aarogya Setu app",
+      "message": "You will be redirected to external site <br />and won’t be logged in automatically, as your data is not being carried forward.",
+      "proceed": "Proceed",
+      "cancel": "Cancel",
+      "heading": "Useful Resources",
+      "h1": "Aarogya<span class=&apos;normal&apos;>Setu</span>&nbsp;Mitr",
+      "description": "Free COVID-19 <br /> Consultations and <br />Doorstep Labs Medicines"
+    },
+    "nearbyPopup": {
+      "heading": "What do these mean?",
+      "list": [
+        {
+          "h": "Active Aarogya Setu users",
+          "p": "<span class=&apos;greenText&apos;>Shows</span> the number of Aarogya Setu users near you (within a radius of 500m to 10 kms), who have been active on the app – like checking their status, watching videos, doing self-assessment or checking COVID-19 stats. This <span class=&apos;pinkText&apos;>does not show</span> the number of people who have installed the app, that number would be higher."
+        },
+        {
+          "h": "Have taken a self-assessment test",
+          "p": "Shows the number of users near you (within a radius of 500m to 10 kms) who have recently (in the last 24-48 hours) completed the self assessment test. This is not the number of active Aarogya Setu users."
+        },
+        {
+          "h": "Self-Assessed as Unwell",
+          "p": "Shows the number of users near you (within a radius of 500m to 10kms) who have recently (in the last 24-48 hours), completed the self assessment test – on the basis of which they have marked themselves as unwell."
+        },
+        {
+          "h": "Identified as &apos;At-Risk&apos; via Bluetooth Proximity",
+          "p": "Aarogya Setu App uses Bluetooth proximity (close-ness) tracing to highlight any possible risks users may have – by coming close (in proximity) to either a confirmed COVID-19 positive patient, or someone who is at a high risk. This number indicates all those who have been marked as &apos;At-risk&apos; owing to such close contact – traced through Bluetooth. Their data and the data of those they came in contact with is still anonymous."
+        },
+        {
+          "h": "Diagnosed as COVID-19 Positive",
+          "p": "Shows the number of users near you (within a radius of 500m to 10 kms) who have been diagnosed as COVID-19 positive based on lab-test and confirmation by ICMR. If you have not come in contact with the user – your status will show as green and you have nothing to worry about. Just take the precautions and follow the &apos;things to do next&apos;"
+        }
+      ]
+    },
+    "icmrPage": {
+      "heading": "ICMR Approved Labs",
+      "title": "COVID-19 Testing Laboratories",
+      "subText": "Below are the ICMR (Indian Council of Medical Research) approved Government and Private laboratories with COVID19 testing facility ",
+      "all": "All",
+      "gLabs": "Govt.&nbsp;Labs",
+      "pLabs": "Private&nbsp;Labs",
+      "gTitle": "Government Lab",
+      "pTitle": "Private Lab",
+      "cTitle": "Collection Site",
+      "cta": "GET DIRECTIONS",
+      "selectState": "Select&nbsp;Your&nbsp;State&nbsp;",
+      "select": "Select",
+      "pickedText": "Showing&nbsp;Labs&nbsp;in",
+      "placeholder": "Choose a State/UT",
+      "done": "Done",
+      "description": "Laboratories with COVID-19 testing facility",
+      "homeCta": "See ICMR Approved Labs"
+    }
+  },
+  "headers": {
+    "lat": "12.910586639924507",
+    "lon": "77.55538417633642",
+    "ver": 1045,
+    "pt": "9cf23ec2-d83c-4778-aca5-d7fb64ae1b2d",
+    "Authorization": ""
+  },
+  "JSMobileCrm": {},
+  "lang": "en",
+  "show_form": false,
+  "Total_users": 100,
+  "profile_image_url": "",
+  "status_code": "200",
+  "img": "",
+  "mainText": "",
+  "subText": "",
+  "proximity": false,
+  "recommendationList": [],
+  "recommendText": "",
+  "guideLineHeading": "",
+  "guideLines": [],
+  "listText": "",
+  "listItem": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "application-config",
+  "version": "0.0.1",
+  "description": "Config to setup application on stencil",
+  "keywords": [
+    "config",
+    "stencil",
+    "base-config"
+  ],
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "https://github.com/goibibo-labs/stencil-starter-kit/tree/master/packages/application-config#readme",
+  "license": "MIT",
+  "main": "src/application-config.ts",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goibibo-labs/stencil-starter-kit.git",
+    "directory": "packages/application-config"
+  },
+  "private": true,
+  "files": [
+    "src",
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {}
+}

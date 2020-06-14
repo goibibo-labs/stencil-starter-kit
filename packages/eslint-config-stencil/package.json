@@ -1,0 +1,41 @@
+{
+  "name": "@stencil/eslint-config-stencil",
+  "version": "0.0.1",
+  "description": "eslint config",
+  "author": "AbinashGoMMT <abinash.patra@go-mmt.com>",
+  "homepage": "https://github.com/goibibo-labs/stencil-starter-kit#readme",
+  "license": "ISC",
+  "main": "src/eslint-config-stencil.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo-labs/stencil-starter-kit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo-labs/stencil-starter-kit/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-jest-enzyme": "7.1.2",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-jest": "23.6.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "^7.20.0"
+  }
+}

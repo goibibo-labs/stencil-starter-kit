@@ -1,0 +1,42 @@
+{
+  "name": "@stencil/core-scripts",
+  "version": "0.0.1",
+  "description": "core custom scripts for stencils",
+  "keywords": [
+    "script",
+    "stencil"
+  ],
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/dev.ts",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@stencil/newrelic-instance": "^0.0.1",
+    "@stencil/webpack-config": "^0.0.1",
+    "application-config": "^0.0.1",
+    "express": "^4.17.1",
+    "express-static-gzip": "^2.0.6",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.12.18",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-hot-server-middleware": "^0.6.0"
+  }
+}

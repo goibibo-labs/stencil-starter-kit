@@ -1,0 +1,12 @@
+{
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "strict": true,
+      "force-local": true
+    }
+  },
+  "packages": ["packages/**", "verticals/**", "hooks/**"],
+  "npmClient": "npm",
+  "version": "independent"
+}

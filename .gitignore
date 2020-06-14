@@ -1,0 +1,8 @@
+node_modules
+lerna-debug.log
+npm-debug.log
+.DS_Store
+client-build/
+server-build/
+build/
+.vscode
