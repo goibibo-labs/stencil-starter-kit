@@ -1,11 +1,10 @@
 # `@stencil/application-config`
 
-> TODO: description
+> for sourcing all configs related to business/application like static asset storage path, application port, client-side analytics container ID, etc.
 
 ## Usage
 
 ```
-const applicationConfig = require('@stencil/application-config');
-
-// TODO: DEMONSTRATE API
+import applicationConfig from '@stencil/application-config';
+import {sentryId} from '@stencil/application-config';
 ```

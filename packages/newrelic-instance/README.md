@@ -1,11 +1,9 @@
 # `@stencil/newrelic-instance`
 
-> TODO: description
+> Abstraction based on the popular NewRelic for server-side health and tracing purposes, extends wrapper to allow customization with similar contract
 
 ## Usage
 
 ```
-const newrelicInstance = require('@stencil/newrelic-instance');
-
-// TODO: DEMONSTRATE API
+require('@stencil/newrelic-instance');
 ```

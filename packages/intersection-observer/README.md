@@ -1,11 +1,12 @@
 # `@stencil/intersection-observer`
 
-> TODO: description
+> For abstracting IntersectionObserver interaction
 
 ## Usage
 
 ```
-const intersectionObserver = require('@stencil/intersection-observer');
+import getIntersectionObserverInstance from '@stencil/intersection-observer';
 
-// TODO: DEMONSTRATE API
+const IntersectionObserver = getIntersectionObserverInstance();
+new IntersectionObserver();
 ```

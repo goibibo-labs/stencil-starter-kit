@@ -16,6 +16,7 @@ export const webpackServerOutput = resolve(cwd, 'server-build');
 
 export const serverPort = 3000;
 export const serverLogLevel = 'info';
+
 export const EnvConfigPath = ({BUILD_ENV, isClient, isEnvDevelopment}) =>
   resolve(__dirname, `../../../src/env/${BUILD_ENV}.json`);
 

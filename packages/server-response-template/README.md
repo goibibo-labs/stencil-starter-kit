@@ -1,11 +1,12 @@
 # `@stencil/server-response-template`
 
-> TODO: description
+> Responsible for constructing the response HTML template for incoming requests
 
 ## Usage
 
 ```
-const serverResponseTemplate = require('@stencil/server-response-template');
+import serverResponseTemplate from '@stencil/server-response-template';
 
-// TODO: DEMONSTRATE API
+serverResponseTemplate({assets, publicPath, appContent, headCss, storeJson, helmetObj, cachedAt});
+
 ```

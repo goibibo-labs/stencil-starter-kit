@@ -1,11 +1,18 @@
 # `@stencil/megatron`
 
-> TODO: description
+> Abstraction for Network adapter extending native fetch with node-fetch for server-side interaction, with in-built support of error logging on failure, short-circuiting, and other controls
 
 ## Usage
 
 ```
-const megatron = require('@stencil/megatron');
+import Megatron from '@stencil/megatron';
 
-// TODO: DEMONSTRATE API
+await Megatron({
+  name: 'API name',
+  type: 'GET' | 'POST',
+  url,
+  credentials: optional,
+  requestData: optional,
+  headers: optional,
+});
 ```
