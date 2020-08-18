@@ -1,11 +1,14 @@
 # `@stencil/core-scripts`
 
-> TODO: description
+> NPM scripts to boot-up application in dev / build / start mode
+> dev mode is also responsible for initializing HMR on both client and server side, along with finally getting express app started on defined port
+> start mode boots up whole application in production mode
 
 ## Usage
 
 ```
-const coreScripts = require('@stencil/core-scripts');
+npm run dev
+npm run build
+npm run start
 
-// TODO: DEMONSTRATE API
 ```

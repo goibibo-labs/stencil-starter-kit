@@ -1,11 +1,10 @@
 # `@stencil/config-from-env`
 
-> TODO: description
+> For sourcing environment-driven (pp, prodpp, etc.) configurations like API endpoints, mock data, etc.
 
 ## Usage
 
 ```
-const configFromEnv = require('@stencil/config-from-env');
+import configFromEnv from '@stencil/config-from-env';
 
-// TODO: DEMONSTRATE API
 ```

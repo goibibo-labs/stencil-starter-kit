@@ -1,11 +1,10 @@
 # `@stencil/promise-utils`
 
-> TODO: description
+> Set of utils on top of promise-related activities like shortCircuit-ing
 
 ## Usage
 
 ```
-const promiseUtils = require('@stencil/promise-utils');
+shortCircuit(promiseInstance, timeInMS);
 
-// TODO: DEMONSTRATE API
 ```

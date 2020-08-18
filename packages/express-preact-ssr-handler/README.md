@@ -1,11 +1,18 @@
 # `@stencil/express-preact-ssr-handler`
 
-> TODO: description
+> Returns configured Express app handler for serving all requests and enabling server-side rendering for the app
 
 ## Usage
 
 ```
-const expressPreactSsrHandler = require('@stencil/express-preact-ssr-handler');
+import getExpressReactSSRHandler from 'express-preact-ssr-handler';
 
-// TODO: DEMONSTRATE API
+expressRouter.use(
+  '/',
+  getExpressReactSSRHandler({
+    routes,
+    clientStats,
+    publicPath,
+  }),
+);
 ```

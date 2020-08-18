@@ -1,11 +1,3 @@
 # `@stencil/eslint-config-stencil`
 
-> TODO: description
-
-## Usage
-
-```
-const eslintConfigStencil = require('@stencil/eslint-config-stencil');
-
-// TODO: DEMONSTRATE API
-```
+> For configuring eslint rules used for coding standardisation

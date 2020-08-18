@@ -1,11 +1,10 @@
 # `@stencil/babel-preset-stencil`
 
-> TODO: description
+> For configuring babel presets / plugins
 
 ## Usage
 
 ```
-const babelPresetStencil = require('@stencil/babel-preset-stencil');
+import babelPresetStencil from '@stencil/babel-preset-stencil';
 
-// TODO: DEMONSTRATE API
 ```
