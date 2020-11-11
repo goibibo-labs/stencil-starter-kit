@@ -15,7 +15,8 @@
     "lint": "eslint . --quiet --fix",
     "lintcheck": "eslint . --quiet",
     "format": "prettier --write \"{packages,src,verticals/}/**/*.{ts,tsx,js,jsx,less,css}\"",
-    "format-check": "prettier --check --debug-check \"{packages,src,verticals/}/**/*.{ts,tsx,js,jsx,less,css}\""
+    "format-check": "prettier --check --debug-check \"{packages,src,verticals/}/**/*.{ts,tsx,js,jsx,less,css}\"",
+    "storybook": "cd packages/docs && npm run storybook"
   },
   "author": "",
   "license": "ISC",

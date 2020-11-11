@@ -76,27 +76,15 @@ export default function webpackConfig(env, argv) {
             },
           },
         },
-        // {
-        //   test: /\.svg$/,
-        //   use: [
-        //     // '@svgr/webpack',
-        //     {
-        //       loader: 'svg-url-loader',
-        //       options: {
-        //         limit: 10000,
-        //       },
-        //     },
-        //   ],
-        // },
+        {
+          test: /\.svg$/,
+          use: ['@svgr/webpack'],
+        },
         {
           // For pure CSS (without CSS modules)
           test: /\.css$/i,
           // exclude: /\.module\.css$/i,
-          use: [
-            // 'style-loader',
-            MiniCssExtractPlugin.loader,
-            'css-loader',
-          ],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.(woff|woff2|eot|ttf|png|gif|svg)?$/,
@@ -190,8 +178,6 @@ export default function webpackConfig(env, argv) {
         __SERVER__: isServer,
         __CLIENT__: isClient,
         __ENV_CONFIG__: JSON.stringify(envJson),
-        // __NCV_API__: JSON.stringify('https://ncv-pp2.cowin20.in'),
-        // __FP_API__: JSON.stringify('https://fp.swaraksha.gov.in'),
       }),
       isEnvDevelopment && isClient && new webpack.HotModuleReplacementPlugin(),
       new MiniCssExtractPlugin({
