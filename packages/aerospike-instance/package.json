@@ -1,0 +1,37 @@
+{
+  "name": "@stencil/aerospike-instance",
+  "version": "0.0.1",
+  "description": "aerospike instance for connector purposes",
+  "keywords": [
+    "aerospike",
+    "node"
+  ],
+  "author": "AbinashGoMMT <abinash.patra@go-mmt.com>",
+  "homepage": "https://github.com/goibibo/stencil#readme",
+  "license": "ISC",
+  "main": "src/aerospike-instance",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo/stencil.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo/stencil/issues"
+  },
+  "dependencies": {
+    "@stencil/logger": "^0.0.1",
+    "aerospike": "^3.15.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@stencil/external-inmemory-cache-aerospike-connector",
+  "version": "0.0.1",
+  "description": "external inmemory cache aerospike connector",
+  "author": "AbinashGoMMT <abinash.patra@go-mmt.com>",
+  "homepage": "https://github.com/goibibo/stencil#readme",
+  "license": "ISC",
+  "main": "src/external-inmemory-cache-aerospike-connector.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo/stencil.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo/stencil/issues"
+  },
+  "dependencies": {
+    "@stencil/aerospike-instance": "^0.0.1",
+    "@stencil/hotels-dweb": "^0.0.1",
+    "@stencil/logger": "^0.0.1",
+    "aerospike": "^3.15.0",
+    "zlib": "^1.0.5"
+  }
+}

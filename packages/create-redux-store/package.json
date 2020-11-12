@@ -1,0 +1,38 @@
+{
+  "name": "@stencil/create-redux-store",
+  "version": "0.0.1",
+  "description": "Create redux store as utility with required middleware",
+  "keywords": [
+    "redux",
+    "store"
+  ],
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "https://github.com/goibibo/stencil#readme",
+  "license": "ISC",
+  "main": "src/create-redux-store.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo/stencil.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo/stencil/issues"
+  },
+  "dependencies": {
+    "@stencil/user-reducer": "^0.0.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@stencil/mount-react-app",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "https://github.com/goibibo/stencil#readme",
+  "license": "ISC",
+  "main": "src/mount-react-app",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo/stencil.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo/stencil/issues"
+  },
+  "dependencies": {
+    "@stencil/app-error-boundary": "^0.0.1",
+    "@stencil/build-theme": "^0.0.1",
+    "@stencil/client-side-analytics": "^0.0.1",
+    "@stencil/create-redux-store": "^0.0.1",
+    "@stencil/footer": "^0.0.1",
+    "@stencil/global-style": "^0.0.1",
+    "@stencil/header": "^0.0.1",
+    "common-helmet-json": "^0.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.1.1"
+  }
+}

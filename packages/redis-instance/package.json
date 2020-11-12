@@ -1,0 +1,29 @@
+{
+  "name": "@stencil/redis-instance",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/redis-instance.server.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@stencil/logger": "^0.0.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/redis": "^2.8.14"
+  }
+}
