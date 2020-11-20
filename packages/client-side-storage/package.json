@@ -1,0 +1,34 @@
+{
+  "name": "@stencil/client-side-storage",
+  "version": "0.0.1",
+  "description": "client-side storage for storing data on frontend",
+  "keywords": [
+    "storage",
+    "client-side",
+    "localStorage"
+  ],
+  "author": "AbinashGoMMT <abinash.patra@go-mmt.com>",
+  "homepage": "https://github.com/goibibo/stencil#readme",
+  "license": "ISC",
+  "main": "src/client-side-storage",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goibibo/stencil.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/goibibo/stencil/issues"
+  }
+}

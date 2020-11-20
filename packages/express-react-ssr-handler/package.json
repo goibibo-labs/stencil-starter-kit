@@ -1,0 +1,34 @@
+{
+  "name": "@stencil/express-react-ssr-handler",
+  "version": "0.0.1",
+  "description": "request handler for react route on express",
+  "author": "Anusheel Singh <anusheel.singh@go-mmt.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/express-react-ssr-handler.server.tsx",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {},
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@stencil/create-redux-store": "^0.0.1",
+    "@stencil/external-inmemory-cache-aerospike-connector": "^0.0.1",
+    "@stencil/external-inmemory-key-value-cache": "^0.0.1",
+    "@stencil/logger": "^0.0.1",
+    "@stencil/mount-react-app": "^0.0.1",
+    "@stencil/newrelic-instance": "^0.0.1",
+    "@stencil/promise-utils": "^0.0.1",
+    "@stencil/server-response-template": "^0.0.1",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.1.1"
+  }
+}

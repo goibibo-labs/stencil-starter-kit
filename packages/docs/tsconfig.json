@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["packages/*"],
+      "lib": ["es2019"]
+    }
+  }
+}
